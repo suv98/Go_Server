@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+//this is the main function
 func main() {
 	fileserver := http.FileServer(http.Dir("./static"))
 
